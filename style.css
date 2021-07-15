@@ -1,0 +1,126 @@
+body{
+    margin: 0 10px;
+    padding: 10px 40px;
+}
+nav{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo .logo-img{
+    padding-right: 10px;
+}
+.logo-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.logo-description p{
+    border: none;
+    margin: 0;
+}
+.logo-description #delecious{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo-description #best-food{
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: lighter;
+    color: grey;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-left{
+    display: flex;
+    padding: 0 10px;
+}
+.nav-left img{
+    padding-right: 2px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right img{
+    padding-right: 2px;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    margin-top: 50px;
+    padding: 0 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container-text p{
+    border: none;
+    margin: 5px 0;
+}
+.container-text #chocolate-pizza{
+    font-family: fantasy;
+    /* font-weight: bold; */
+    font-size: 40px;
+}
+.container-text #posted-date{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: grey;   
+}
+.container-img {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-img p{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: grey; 
+}
+section{
+    text-align: center;
+}
+section p{
+    text-indent: 50px;
+    box-sizing: border-box;
+    padding: 5px 120px;
+    text-align: left;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;  
+    color: rgb(109, 104, 104);
+}
+.reciepe{ 
+    margin: 50px 50px;
+    background-image: url(images/list-bg.png);
+    display: flex;
+    justify-content: space-between;
+}
+.reciepe .left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.reciepe .right{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
